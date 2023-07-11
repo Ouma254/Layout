@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -76,6 +77,16 @@ fun Layout() {
        Text(
            text = "Latest Version of the vehicle", color = Color.Blue
        )
+       Spacer(modifier = Modifier.padding(10.dp))
+       Button(
+           onClick = { /*TODO*/ },
+           modifier = Modifier
+               .align(Alignment.CenterHorizontally)
+       ) {
+           Text(
+               text = "ORDER NOW"
+           )
+       }
 
     }
 
